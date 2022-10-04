@@ -17,18 +17,18 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "14841756"))
+API_HASH = getenv("API_HASH, "d3c39c561f98f8decf9aaf171d281e22")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN, "5202725137:AAHDo13sD6gU56Ht6ZgXolAtfY3ApRvNZNs")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
-    getenv("DURATION_LIMIT", "60")
+    getenv("DURATION_LIMIT", "460")
 )  # Remember to give value in Minutes
 
 # Duration Limit for downloading Songs in MP3 or MP4 format from bot
@@ -37,7 +37,7 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001323421994"))
 
 # A name for your Music bot.
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
@@ -65,11 +65,9 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", None
-)  # Example:- https://t.me/TheYukki
+    "SUPPORT_CHANNEL", "https://t.me/Vecekayehhh")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", None
-)  # Example:- https://t.me/YukkiSupport
+    "SUPPORT_GROUP", "https://t.me/Ammuyee")  
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
